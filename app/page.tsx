@@ -195,7 +195,9 @@ export default function Home() {
           </div>
         </MaxwidthWrapper>
 
-        
+        <div className="pt-16">
+          <Reviews/>
+        </div>
       </section>
     </div>
   );
