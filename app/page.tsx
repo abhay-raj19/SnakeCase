@@ -3,6 +3,7 @@
 import { Icons } from "@/components/Icons";
 import MaxwidthWrapper from "@/components/MaxwidthWrapper";
 import Phone from "@/components/Phone";
+import Reviews from "@/components/Review";
 import { Check, Star } from "lucide-react";
 import Image from "next/image";
 
