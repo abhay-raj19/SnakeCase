@@ -30,11 +30,14 @@ const Page = () => {
           onDragEnter={() => setIsDragOver(true)}
           onDragLeave={() => setIsDragOver(false)}
         >
-            {({getRootProps,getInputProps})=>(
-                <div className="h-full w-full flex-1 flex flex-col items-center justify-center "{...getRootProps()}>
-                    <input />
-                </div>
-            )}
+          {({ getRootProps, getInputProps }) => (
+            <div
+              className="h-full w-full flex-1 flex flex-col items-center justify-center "
+              {...getRootProps()}
+            >
+              <input />
+            </div>
+          )}
         </Dropzone>
       </div>
     </div>
